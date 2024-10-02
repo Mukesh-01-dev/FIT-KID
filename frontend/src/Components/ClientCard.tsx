@@ -25,7 +25,7 @@ export default function ResponsiveGrid() {
         {Array.from(Array(20)).map((_, index) => (
           <Grid item xs={2} sm={4} md={4} key={index} >
             <Item >
-                <Stack direction="row">
+                <Stack direction="row" sx={{justifyContent: "space-between"}}>
                     <PersonIcon sx={{bgcolor: "black", fontSize: "100px", borderRadius: "50%"}} />
                     <Box sx={{marginTop: "12px", marginRight: "5px"}}>
                         <Typography sx={{color: "black", marginRight: "20px"}}>Liya - 23yrs F</Typography>
