@@ -5,7 +5,7 @@ import ClientCard from "./ClientCard"
 
 const Clients = () => {
   return (
-    <Box sx={{marginTop: "30px"}}>
+    <Box sx={{marginTop: "20px"}}>
         <Typography variant='h4' sx={{color: "black", textAlign: "center", fontWeight: "500", marginBottom: "10px"}}>Present Clients</Typography>
         <Stack direction="row" sx={{justifyContent: "center"}}>
             <TextField id="filled-basic" label="Search" variant="filled" size="small" />
