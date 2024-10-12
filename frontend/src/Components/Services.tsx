@@ -14,7 +14,7 @@ const theme = createTheme({
 const Services = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Box sx={{paddingTop: "40px", bgcolor: "secondary.main", height: "600px"}}>
+      <Box sx={{paddingTop: "40px", bgcolor: "secondary.main", height: "600px", color: "white"}}>
         <Typography variant="h3" sx={{marginBottom: "20px", textAlign: "center", fontWeight: "700"}}>Our Services</Typography>
         <Stack sx={{borderColor: "white",border: 1, height: "450px", width: "95%", marginX: "auto", paddingLeft: "40px", paddingTop: "50px"}} direction="row">
             <Box>

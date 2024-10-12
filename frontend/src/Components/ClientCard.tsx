@@ -33,7 +33,7 @@ export default function ResponsiveGrid() {
                         <Typography sx={{color: "black", marginRight: "42px"}}>Vegetarian</Typography>
                     </Box>
                     <Stack sx={{marginLeft: "15px"}}>
-                        <Button variant="contained" size='small' sx={{fontSize: "8px"}}>
+                        <Button variant="contained" size='small' sx={{fontSize: "8px"}} >
                             <InfoIcon sx={{fontSize: "15px", marginRight: "5px"}} />
                             View all details
                         </Button>

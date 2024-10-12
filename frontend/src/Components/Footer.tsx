@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Box sx={{paddingTop: "40px", bgcolor: "secondary.main", height: "500px", borderTop: 1, borderColor: "white"}}>
+        <Box sx={{paddingTop: "40px", bgcolor: "secondary.main", height: "500px", borderTop: 1, borderColor: "white", color: "white"}}>
             <Stack sx={{borderColor: "white", paddingLeft: "40px", paddingTop: "50px"}} direction="row">
                 <Box sx={{width: "50%"}}>
                     <Stack direction="row">
